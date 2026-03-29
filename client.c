@@ -51,7 +51,7 @@ void* send_msg(void* arg) {
 int main() {
     struct sockaddr_in serv_addr;
 
-    // 🔹 Create socket
+    
     sock = socket(AF_INET, SOCK_STREAM, 0);
     if(sock < 0) {
         printf("Socket creation failed\n");
